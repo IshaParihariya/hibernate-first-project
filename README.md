@@ -35,17 +35,21 @@ Remove student records from the database.
 - Maven
 
 ## Project Structure
+
+```
 src/main/java
 │
-├── Student.java (Entity Class)
+├── Student.java        (Entity Class)
 ├── InsertStudent.java
 ├── FetchStudent.java
 ├── UpdateStudent.java
 └── DeleteStudent.java
 
-hibernate.cfg.xml
-pom.xml
+resources
+└── hibernate.cfg.xml
 
+pom.xml
+```
 ## Key Concepts Practiced
 
 - Hibernate Configuration
