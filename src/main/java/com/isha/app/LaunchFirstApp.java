@@ -9,7 +9,7 @@ import org.hibernate.cfg.Configuration;
 public class LaunchFirstApp {
     public static void main(String[] args)
     {
-        // step 1 configuration object
+        //  step 1 configuration object
         Configuration config = new Configuration();
 
         // step 2 configure hibernate.cfg.xml file to Configuration object
